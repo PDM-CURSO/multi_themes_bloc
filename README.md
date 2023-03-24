@@ -1,16 +1,20 @@
-# themed_app
+# App Themes y BLoC
 
-A new Flutter project.
+App para practicar el disenio de layouts con widgets mas comunes
+containers, stacks, row/columns, text, etc...
+manejo de estados con BLoC
+cambio de themes
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Recuerda que despues de clonar el proyecto, abrir una terminal dentro de la carpeta del proyecto y ejecutar el comando:
 
-A few resources to get you started if this is your first Flutter project:
+```sh
+flutter packages get
+``` 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## App Screenshot
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+<img src="screenshot/Capture0.png" width="240" height="480" />
+<img src="screenshot/Capture1.png" width="240" height="480" />
