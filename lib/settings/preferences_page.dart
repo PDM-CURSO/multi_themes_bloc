@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../theme/app_themes.dart';
-import '../theme/bloc/theme_bloc.dart';
 
 class PreferencesPage extends StatelessWidget {
   PreferencesPage({Key? key}) : super(key: key);
@@ -26,9 +24,7 @@ class PreferencesPage extends StatelessWidget {
                 style: appThemeData[_itemAppTheme]!.textTheme.bodyMedium,
               ),
               onTap: () {
-                BlocProvider.of<ThemeBloc>(context).add(
-                  ThemeChangedEvent(theme: _itemAppTheme),
-                );
+                // TODO: agregar evento al bloc para cambiar tema
               },
             ),
           );

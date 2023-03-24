@@ -3,7 +3,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class TipsList extends StatelessWidget {
   const TipsList({super.key});
-
+  // TODO: agregar style a los textos de titulos
   @override
   Widget build(BuildContext context) {
     return ListView(
@@ -22,7 +22,6 @@ class TipsList extends StatelessWidget {
                     Icon(FontAwesomeIcons.igloo),
                     Text(
                       "Most Popular",
-                      style: Theme.of(context).textTheme.titleLarge,
                     ),
                     Text("This is a popular design."),
                   ],
@@ -44,7 +43,6 @@ class TipsList extends StatelessWidget {
                     Icon(FontAwesomeIcons.treeCity),
                     Text(
                       "Easy care",
-                      style: Theme.of(context).textTheme.titleLarge,
                     ),
                     Text("This plant is appropriate for beginners."),
                   ],
@@ -66,7 +64,6 @@ class TipsList extends StatelessWidget {
                     Icon(FontAwesomeIcons.gifts),
                     Text(
                       "Products",
-                      style: Theme.of(context).textTheme.titleLarge,
                     ),
                     Text("Get the same look without the maintenance."),
                   ],
